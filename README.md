@@ -15,14 +15,13 @@ https://github.com/Nagarjunabec/Digital-Media-Integrity-Dataset
 |---|---:|---:|
 | Real | 0 | 7,520 |
 | Fake | 1 | 8,520 |
-| Mixed | 1 | 4,082 |
-| **Total** | **–** | **20,122** |
+| **Total** | **–** | **16 040** |
 
 ## 📂 Dataset Categories
 
 - **Real:** Authentic social media videos.
 - **Fake:** Fake or manipulated videos.
-- **Mixed:** Videos containing mixed real and fake content.
+
 
 ## 💻 Clone the Dataset
 
@@ -35,8 +34,8 @@ git lfs pull
 
 **Dataset Name:** Digital Media Integrity Dataset (DMID)
 
-**Total Samples:** 20,122 Videos
+**Total Samples:** 16 040 Videos
 
-**Categories:** Real | Fake | Mixed
+**Categories:** Real | Fake 
 
 **Metadata:** Four Excel files
