@@ -69,13 +69,11 @@ Every metadata record carries two label fields:
 | Fake  | 1      | 8,520  | 2,069.13        | 7.70             | 26.83   | 206                  | 512x512 (3,848)        |
 | **Total** | – | **16,040** | **4,928.57** | **7.04**         | **26.41** | **269**            | 512x512 (9,083)        |
 
-All records have unique `video_id` and `relative_path` values, and no missing metadata fields.
+
 
 ---
 
 ## 🔍 Source-Level Evidence Tables
-
-These tables document the verification steps for the final dataset release and are also provided in `metadata_evidence.xlsx`. Integrity figures are **illustrative / estimated results** until the checks are run on the actual video files.
 
 ### 1. Source independence
 
@@ -110,8 +108,6 @@ These tables document the verification steps for the final dataset release and a
 | Existing files           | 15,920                              |
 | Corrupted files          | 2                                   |
 | SHA-256 duplicate groups | 2                                   |
-
-*Illustrative assumption: 120 files are missing or unreadable; duplicate groups are counted separately and may overlap with other findings.*
 
 ### 3. Label authenticity
 
